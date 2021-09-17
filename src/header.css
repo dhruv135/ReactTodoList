@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    align-items: center;
+    margin: 20px auto;
+    padding: 18px;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+.header h1{
+    font-size: 46px;
+    letter-spacing: 1px;
+}
+.header img{
+    width: 200px;
+    height: 90px;
+}

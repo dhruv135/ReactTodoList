@@ -1,0 +1,82 @@
+
+.main-cont{
+    width: fit-content;
+    
+    margin: 20px auto;
+}
+.inputBox{
+    font-size: 20px;
+    padding: 6px 12px;
+    margin: 0 12px;
+    /* border: none; */
+    border: 2px solid #1e90ff;
+    outline: none;
+}
+.edit-btn{
+    padding: 7px 7px;
+    letter-spacing: 1px;
+    margin: 0 12px;
+    position: relative;
+    top: -4px;
+}
+.remove-btn{
+    margin: 0px 9px;
+    padding: 7px 6px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    background: red;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: -4px;
+}
+.add-btn{
+    margin: 0px 9px;
+    padding: 7px 6px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    background: lightgreen;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+    top: -4px;
+}
+.main-cont-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 26px 12px;
+    /* border: 2px solid; */
+    box-shadow: 5px 3px 8px #ccc;
+    border-radius: 9px;
+   
+}
+.btn-delete{
+    margin: 0px 9px;
+    padding: 7px 6px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    background: red;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn-edit{
+    margin: 0px 9px;
+    padding: 7px 6px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: white;
+    background: lightgreen;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.inputBox:focus{
+    box-shadow: 1px 1px 3px 1px #1e90ff;
+}
